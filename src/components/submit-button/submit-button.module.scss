@@ -1,0 +1,21 @@
+.root {}
+
+.button {
+    border-radius: 0.2em;
+    background-color: #7D07D7;
+    color: #FFFFFF;
+    border: 0px solid black;
+    display: inline-block;
+    padding: 0.8em 1.4em;
+    font-weight: 900;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: #A048E3;
+    }
+
+    &:focus {
+        background-color: #5E00A5;
+    }
+
+}
