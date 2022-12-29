@@ -59,16 +59,23 @@
     border-radius: 0.4em;
     box-shadow: 0 3px 16px 3px rgba(0, 0, 0, 0.2);
     opacity: 0.8;
+    margin-top: 3em;
 }
 
 .title {
     font-size: 2.8em;
-    margin: 0em 0em 0.5em;
+    margin: 0em 0em 1em;
 }
 
 .description {
-    margin-bottom: 3.4em;
-    width: 100em;
+    margin-bottom: 0em;
+    width: 100%;
     max-width: 30em;
     text-align: center;
+    margin-top: 0px;
+}
+
+.note {
+    font-size: 0.8em;
+    color: #6A6875;
 }
