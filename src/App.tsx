@@ -47,7 +47,7 @@ function App() {
                             <Input name={'email'} required={true} /></FormRow>
                         <FormRow>
                             <Label>Message</Label>
-                            <Input name={'message'} />
+                            <Input name={'message'} required={true} />
                         </FormRow>
                         <FormRow>
                             <SubmitButton>
