@@ -5,7 +5,7 @@
     background-color: #7D07D7;
     color: #FFFFFF;
     border: 0px solid black;
-    display: inline-block;
+    display: inline-flex;
     padding: 0.8em 1.4em;
     font-weight: 900;
     text-transform: uppercase;
@@ -16,6 +16,10 @@
 
     &:focus {
         background-color: #5E00A5;
+    }
+
+    svg {
+        margin-right: .5em;
     }
 
 }
